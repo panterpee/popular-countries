@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container-nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            background-color: rgb(3, 3, 3);
+            color: white;
+        }
+
+        .container-nav h1 {
+            margin-left: 1rem;
+        }
+
+
+        .container-nav li a {
+            text-decoration: none;
+            color: white;
+        }
+
+
+        .nav {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            list-style: none;
+            margin-right: 2rem;
+        }
+
+        .nav li {
+            margin-left: 2rem;
+            text-transform: uppercase;
+            font-size: larger;
+            padding: 5px 0px;
+        }
+
+        .red {
+            background-color: red;
+            width: 150px;
+            height: 150px;
+            min-width: 100px;
+            min-height: 100px;
+            position: absolute;
+            border-radius: 100%;
+            z-index: 99;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+
+
+
+        }
+
+        .white {
+            background-color: rgb(234, 234, 234);
+            max-width: 600px;
+            height: 100%;
+            position: relative;
+
+
+
+        }
+
+
+        .flag {
+            width: 380px;
+            min-height: 500px;
+            box-shadow: 5px 8px 10px 5px #888888;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .content {
+            min-width: 300px;
+            max-width: 750px;
+            padding: 0 5rem;
+            text-align: center;
+        }
+
+        .content h1 {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: -5px;
+            font-family: serif;
+
+        }
+
+        .detail {
+            font-size: 18px;
+            width: 100%;
+            padding: 2rem 8%;
+            max-width: 1050px;
+        }
+
+        .content img {
+            height: auto;
+            max-height: 800px;
+            margin-top: 1rem;
+            left: auto;
+            width: 80%;
+            object-fit: cover;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="container-nav">
+            <h1>TOP POPULAR COUNTRIES</h1>
+            <ul class="nav">
+                <li><a href="./Thai.html">THAI</a></li>
+                <li><a href="./Japan.html">JAPANESE</a></li>
+            </ul>
+        </div>
+    </header>
+    <section class="container">
+        <div class="flag">
+            <div class="white">
+                <div class="red"></div>
+            </div>
+        </div>
+
+        <div class="content">
+            <h1>JAPANESE</h1>
+            <img src="https://english.cdn.zeenews.com/sites/default/files/2023/07/06/1235394-t.jpg">
+        </div>
+        <div class="detail">
+            <p><b>Japan</b> is an island nation with a tremendous amount of history and culture intertwined with is
+                present fast-paced reputation. </p>
+
+            <p>
+                From the epic wilderness of Hokkaido down to the tropical beaches of Okinawa, travelling to Japan is an
+                experience like no other.
+            </p>
+
+            <p>Whether you’re into food, culture, history or the outdoors Japan has it all. Travel to Japan is on the
+                rise and it’s easy to see why.</p>
+
+            <p>
+                Of Japan’s four main islands Honshu gets the vast majority of visitors. Travellers are in constant awe
+                of the spectrum of Kyoto’s temples,<br> taken captive with Nara’s deer and consumed by eating everything in
+                sight in Tokyo.
+            </p>
+        </div>
+    </section>
+
+</body>
+
+</html>
